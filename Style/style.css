@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    height: 50hv;
+    width: 20hw;
+    flex-direction: column;
+
+    background-color: rgba(245, 241, 241, 0.833);
+}
+header{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    justify-content: space-between;
+    padding: 20px;
+
+
+    background-color: rgba(245, 241, 241, 0.808);
+    width: 100%;
+    height: 70px;
+}
+.imagem_linke {
+    height: 25px;
+    display: block;
+}
+
+.linkIn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkIn a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.caixa_link {
+    height: 56px;
+    width: 240px;
+
+    background-color: rgba(234, 230, 230, 0.313);
+    border: 2px solid rgba(159, 158, 158, 0.358);
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link p {
+    color: rgb(46, 45, 45);
+}
+.caixa_menu{
+    height: 56px;
+    width: 345px;
+
+    background-color: rgb(253, 245, 245);
+    border: 2px solid rgba(159, 158, 158, 0.358);
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menu{
+    gap: 46px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.menu a{
+    color: rgb(46, 45, 45);
+    text-decoration: none;
+}
+.wellcome{
+    display: flex;
+    justify-content: center;
+}
+.sec{
+    color: rgb(143, 135, 135);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+.foto {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    padding: 10px;
+    background: #eee;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.tags span {
+    padding: 6px 14px;
+    background: #eee;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.nome {
+    margin-top: 20px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.cinza {
+    color: #9ca3af;
+}
+.sobre_mim{
+    padding: 30px;
+}
