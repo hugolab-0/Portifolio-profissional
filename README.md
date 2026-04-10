@@ -1,6 +1,4 @@
 # Portifolio-profissional
-# Portfólio Profissional
-
 Este repositório apresenta meu portfólio de projetos e minha evolução na área de desenvolvimento de software, com foco em boas práticas, organização e qualidade de código.
 
 ---
